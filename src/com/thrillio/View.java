@@ -5,6 +5,7 @@ import com.thrillio.constants.UserType;
 import com.thrillio.controllers.BookmarkController;
 import com.thrillio.entities.Bookmark;
 import com.thrillio.entities.User;
+import com.thrillio.partner.Shareable;
 
 import java.sql.SQLOutput;
 
@@ -41,10 +42,21 @@ public class View {
                             && bookmark.getKidFriendlyStatus().equals(KidFriendlyStatus.UNKNOWN)){
 
                         String kidFriendlyStatus = getKidFriendlyStatusDeccision(bookmark);
+
                         if(!kidFriendlyStatus.equals(KidFriendlyStatus.UNKNOWN)){
-                            BookmarkController.getInstance().setKidFriendlyStatus(kidFriendlyStatus, bookmark);
-                            bookmark.setKidFriendlyStatus(kidFriendlyStatus);
-                            System.out.println("Kid-friendly status: " + kidFriendlyStatus + ", " + bookmark);
+                            BookmarkController.getInstance().setKidFriendlyStatus(user, kidFriendlyStatus, bookmark);
+//                            bookmark.setKidFriendlyStatus(kidFriendlyStatus);
+//                            System.out.println("Kid-friendly status: " + kidFriendlyStatus + ", " + bookmark);
+                        }
+
+                    }
+
+                    // Sharing!!
+                    if(bookmark.getKidFriendlyStatus().equals(KidFriendlyStatus.APPROVED)
+                            && bookmark instanceof Shareable){
+                        boolean isShared = getShareDecision();
+                        if(isShared){
+                            BookmarkController.getInstance().share(user, bookmark);
                         }
                     }
                 }
@@ -60,6 +72,11 @@ public class View {
     }
 
     private static boolean getBookmarkDecision(Bookmark bookmark) {
+        return Math.random() < 0.5;
+    }
+
+    // TODO: Below methods simulate user input. After IO, we take input via console.
+    private static boolean getShareDecision(){
         return Math.random() < 0.5;
     }
 
