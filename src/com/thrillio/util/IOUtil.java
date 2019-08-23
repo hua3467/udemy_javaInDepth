@@ -40,4 +40,13 @@ public class IOUtil {
         return text.toString();
     }
 
+    public static void write(String webpage, long id){
+        try(BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("/Users/aaronyang/Dropbox/udemy_javaInDepth/pages/" + String.valueOf(id) + ".html"), "UTF-8"))) {
+            writer.write(webpage);
+            } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
 }

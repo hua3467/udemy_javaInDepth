@@ -2,6 +2,8 @@ package com.thrillio.mamagers;
 
 import com.thrillio.dao.BookmarkDao;
 import com.thrillio.entities.*;
+import com.thrillio.util.HttpConnect;
+import com.thrillio.util.IOUtil;
 
 public class BookmarkManager {
 
@@ -63,6 +65,20 @@ public class BookmarkManager {
         UserBookmark userBookmark = new UserBookmark();
         userBookmark.setUser(user);
         userBookmark.setBookmark(bookmark);
+
+        if(bookmark instanceof WebLink){
+            try{
+                String url = ((WebLink)bookmark).getUrl();
+                if(!url.endsWith(".pdf")){
+                    String webpage = HttpConnect.download(((WebLink)bookmark).getUrl());
+                    if(webpage != null){
+                        IOUtil.write(webpage, bookmark.getId());
+                    }
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
 
         dao.saveUserBookmark(userBookmark);
     }

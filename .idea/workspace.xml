@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb9931ce-e115-4c62-b438-30c98974fb53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thrillio/util/HttpConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thrillio/util/IOUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-6-supplementary-notes.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8-6-Supplementary-Notes.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/udemy_javaInDepth/com/thrillio/DataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udemy_javaInDepth/com/thrillio/DataStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/udemy_javaInDepth/com/thrillio/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udemy_javaInDepth/com/thrillio/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/udemy_javaInDepth/com/thrillio/controllers/BookmarkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udemy_javaInDepth/com/thrillio/controllers/BookmarkController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/udemy_javaInDepth/com/thrillio/entities/Bookmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udemy_javaInDepth/com/thrillio/entities/Bookmark.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/udemy_javaInDepth/com/thrillio/mamagers/BookmarkManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udemy_javaInDepth/com/thrillio/mamagers/BookmarkManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thrillio/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thrillio/DataStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thrillio/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thrillio/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thrillio/controllers/BookmarkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thrillio/controllers/BookmarkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thrillio/entities/Bookmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thrillio/entities/Bookmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udemy_javaInDepth/com/thrillio/util/IOUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udemy_javaInDepth/com/thrillio/util/IOUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/thrillio/mamagers/BookmarkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thrillio/mamagers/BookmarkManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thrillio/util/IOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thrillio/util/IOUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,43 +19,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thrillio/DataStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="23" column="62" lean-forward="true" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thrillio/util/HttpConnect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/thrillio/util/IOUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="71" lean-forward="true" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -123,16 +76,16 @@
         <option value="$PROJECT_DIR$/src/com/thrillio/entities/WebLink.java" />
         <option value="$PROJECT_DIR$/src/com/thrillio/controllers/BookmarkController.java" />
         <option value="$PROJECT_DIR$/src/com/thrillio/entities/Bookmark.java" />
-        <option value="$PROJECT_DIR$/src/com/thrillio/mamagers/BookmarkManager.java" />
         <option value="$PROJECT_DIR$/src/com/thrillio/View.java" />
         <option value="$PROJECT_DIR$/src/demo/jvm/ClassInitializationDemo.java" />
         <option value="$PROJECT_DIR$/src/com/thrillio/DataStore.java" />
         <option value="$PROJECT_DIR$/src/com/thrillio/util/HttpConnect.java" />
+        <option value="$PROJECT_DIR$/src/com/thrillio/mamagers/BookmarkManager.java" />
         <option value="$PROJECT_DIR$/src/com/thrillio/util/IOUtil.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -142,6 +95,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,14 +113,7 @@
               <item name="udemy_javaInDepth" type="b2602c69:ProjectViewProjectNode" />
               <item name="udemy_javaInDepth" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="thrillio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="udemy_javaInDepth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="udemy_javaInDepth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="thrillio" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="udemy_javaInDepth" type="b2602c69:ProjectViewProjectNode" />
@@ -175,8 +123,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,7 +276,8 @@
       <workItem from="1564933335795" duration="1268000" />
       <workItem from="1565053896132" duration="8610000" />
       <workItem from="1565139066445" duration="4568000" />
-      <workItem from="1566187245221" duration="5907000" />
+      <workItem from="1566187245221" duration="9121000" />
+      <workItem from="1566312512855" duration="67000" />
     </task>
     <servers />
   </component>
@@ -364,7 +311,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56781000" />
+    <option name="totallyTimeSpent" value="60062000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,9 +324,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1981402" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20100144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -388,7 +334,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.23975904" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.23975904" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -623,18 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thrillio/mamagers/BookmarkManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1742#1743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thrillio/entities/Bookmark.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -669,28 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thrillio/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thrillio/controllers/BookmarkController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thrillio/mamagers/UserManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -703,22 +615,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thrillio/DataStore.java">
+    <entry file="file://$PROJECT_DIR$/pages/2002.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="23" column="62" lean-forward="true" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        <state relative-caret-position="-2095">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thrillio/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thrillio/DataStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thrillio/controllers/BookmarkController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thrillio/util/HttpConnect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="135">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thrillio/mamagers/BookmarkManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -727,8 +676,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thrillio/util/IOUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="71" lean-forward="true" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+        <state relative-caret-position="720">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
